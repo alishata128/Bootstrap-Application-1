@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Nour Homsi Bootstrap</title>
+    <style>
+        body::before{
+            content: '';
+            display: block;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+        <div class="container">
+         <a href="#" class="navbar-brand">Bootstrap Project</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span class="navbar-toggler-icon"></span></button>
+
+         <div class="collapse navbar-collapse" id="mainmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#learn" class="dropdown-item">Learn Bootstrap</a></li>
+                        <li><a href="#next" class="dropdown-item">Where to go next</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#faq" class="nav-link">Ask me</a></li>
+            </ul>
+         </div>
+        </div>
+    </div>
+
+    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1 class="display-3">Learn <span class="text-info">Bootstrap</span></h1>
+                    <p class="py-1 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti nisi accusantium vitae eligendi ea sunt repellendus soluta placeat beatae voluptatibus officia id, nulla quo doloribus quos impedit voluptates sit quas libero iure! Nisi consequuntur possimus iusto temporibus quasi fugiat?</p>
+                    <button class="btn btn-info">Get Started</button>
+                </div> 
+
+                    <img class="d-none d-sm-block img-fluid w-50" src="./img/heroimg.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--  Services  -->
+    
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Features
+            </h2>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark text-light mb-3">
+                    <div class="h1 mt-3">
+                        <i class="bi bi-arrows-angle-contract text-light"></i>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-info">Responsive</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, aliquam.</p>
+                        <a href="#" class="btn btn-info">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card bg-dark text-light mb-3">
+                <div class="h1 mt-3">
+                    <i class="bi bi-bounding-box-circles text-light"></i>
+                </div>
+                <div class="card-body text-center">
+                    <h4 class="card-title text-info">Easy styling</h4>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, aliquam.</p>
+                    <a href="#" class="btn btn-info">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-4"><div class="card bg-dark text-light mb-3">
+            <div class="h1 mt-3">
+                <i class="bi bi-bricks text-light"></i>
+            </div>
+            <div class="card-body text-center">
+                <h4 class="card-title text-info">Fast Working</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, aliquam.</p>
+                <a href="#" class="btn btn-info">Learn more</a>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md">
+                    <img src="./img/learn.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>Learn the Basics</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita dicta amet sapiente tenetur ut consequuntur recusandae a cupiditate quia tempora eligendi, atque, nobis inventore laboriosam maxime? Adipisci, tenetur doloremque.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur sint fuga odit! Enim dolores incidunt voluptas quod suscipit perspiciatis reprehenderit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-dark text-light" id="next">
+        <div class="container">
+            <div class="row align-items-center justify-content-center flex-row-reverse">
+                <div class="col-md">
+                    <img src="./img/undraw_educator_re_ju47.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>Where to go next!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita dicta amet sapiente tenetur ut consequuntur recusandae a cupiditate quia tempora eligendi, atque, nobis inventore laboriosam maxime? Adipisci, tenetur doloremque.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur sint fuga odit! Enim dolores incidunt voluptas quod suscipit perspiciatis reprehenderit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion accordion-flush" id="bt-faq">
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-one">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-one">Question One</button>
+                    </h5>
+                    <div class="accordion-collapse collapse px-4 py-3" id="answer-one" data-bs-parent="#bt-faq">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illum placeat odio optio vel porro blanditiis eum similique quas perspiciatis perferendis ea harum pariatur ipsa, cum ducimus labore maiores voluptas veniam nihil. Aut voluptatem laborum, corrupti quasi eum pariatur, possimus deserunt saepe sint, perspiciatis dolorum quia esse illo sunt rerum dolores alias cupiditate sit labore quibusdam minus. Aperiam, voluptatem velit!
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-two">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-two">Question Two</button>
+                    </h5>
+                    <div class="accordion-collapse collapse px-4 py-3" id="answer-two" data-bs-parent="#bt-faq">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deserunt!
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-three">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-three">Question Three</button>
+                    </h5>
+                    <div class="accordion-collapse collapse px-4 py-3" id="answer-three" data-bs-parent="#bt-faq">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deserunt!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="py-4 bg-dark text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; Ali Shata
+            </p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-circle h2"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
